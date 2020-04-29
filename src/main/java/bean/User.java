@@ -3,8 +3,8 @@ package bean;
 import java.util.Date;
 
 public class User {
-    static private int id;
-    private String username;
+    private int id;
+   static private String username;
     private Date birthday;
     private String sex;
     private String address;
