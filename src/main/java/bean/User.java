@@ -3,7 +3,7 @@ package bean;
 import java.util.Date;
 
 public class User {
-    private int id;
+    static private int id;
     private String username;
     private Date birthday;
     private String sex;
