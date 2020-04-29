@@ -26,7 +26,7 @@ public class RoleDaoTest {
 
     @Before
     public void before() throws IOException {
-        //（1）读取核心配置文件
+        //（1）读取核心配置文件123
         resourceAsStream = Resources.getResourceAsStream("SqlMapConfig.xml");
         //（2）创建SqlSessionFactoryBuilder
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
